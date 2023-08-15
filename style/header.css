@@ -1,0 +1,16 @@
+.cabeçalho{
+    background-color: var(--fundo-azul);
+    margin:0;
+}
+.contairner{
+    display: flex;align-items: center;
+}
+.contairner__imagem{
+    width: 45px; height: 45px;
+}
+.contairner__titulo, .contairner__imagem, .contairner__frase{
+    padding: 0.1em; color:white;
+}
+.contairner__titulo, .contairner__frase{
+    display: none;
+}
